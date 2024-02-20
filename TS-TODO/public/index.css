@@ -1,0 +1,36 @@
+body {
+  background-color: #b1e3cf;
+}
+#list {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style for the form */
+#new-task-form {
+  margin-top: 20px; /* Add space between the list and the form */
+}
+
+/* Style for the input */
+#new-task {
+  padding: 8px; /* Add padding to the input */
+  font-size: 16px; /* Set font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 14px; /* Add border radius */
+}
+
+/* Style for the button */
+#new-task-form button {
+  padding: 8px 16px; /* Add padding to the button */
+  font-size: 16px; /* Set font size */
+  background-color: #0d6846; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  border-radius: 14px; /* Add border radius */
+  cursor: pointer; /* Set cursor to pointer */
+}
+
+/* Style for the button on hover */
+#new-task-form button:hover {
+  background-color: #083e2a; /* Darken background color on hover */
+}
