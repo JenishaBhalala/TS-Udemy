@@ -81,5 +81,3 @@ const { name: fname, age} = person;
 console.log(fname, age, person);
 
 
-
-
